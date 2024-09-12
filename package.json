@@ -14,9 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+    "preploy": "npm run build",
+    "deploy": "gh-page -d build"
+  }
+  ,
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,5 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://yujin2424.github.io/blog"
 }
